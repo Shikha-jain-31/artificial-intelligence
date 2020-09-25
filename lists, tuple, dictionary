@@ -1,0 +1,38 @@
+#Assigning elements to different lists
+list1= [1,2,3,4,5]
+list2= ['mango','apple','strawberry']
+print(list1)
+#assigning new element to the list
+list1[3]=7
+print(list1)
+#adding new element to the list
+print(list2)
+list2.append('watermelon')
+print(list2)
+#creating an empty list and adding elements to it
+list3=[]
+list3.append('artificial intelligence')
+list3.append('deep learning')
+print(list3)
+
+
+#Accessing elements from a tuple
+tuple1=('john','nick','damon')
+print(tuple1)
+print(tuple1[2])
+
+
+
+#Deleting in a dictionary
+myDict={
+    "C":"Easy",
+    "C++":"Moderate",
+    "Java":"Tough",
+    "MATLAB":"fun",
+    "Python":"Cool"
+    }
+print(myDict)
+del myDict["C"]
+del myDict["Java"]
+print(myDict)
+
